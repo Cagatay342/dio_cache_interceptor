@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:diox/diox.dart';
 import 'package:uuid/uuid.dart';
 
 import '../store/cache_store.dart';

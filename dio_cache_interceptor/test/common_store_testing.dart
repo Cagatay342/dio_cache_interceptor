@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:dio/dio.dart';
+import 'package:diox/diox.dart';
 import 'package:dio_cache_interceptor/src/model/cache_control.dart';
 import 'package:dio_cache_interceptor/src/model/cache_priority.dart';
 import 'package:dio_cache_interceptor/src/model/cache_response.dart';

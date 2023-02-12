@@ -7,15 +7,15 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  dio_cache_interceptor: ^3.3.0
+  #dio_cache_interceptor: ^3.3.0
   # https://pub.dev/packages/objectbox
   objectbox: ^1.4.1
   # https://pub.dev/packages/flat_buffers
   flat_buffers: ^2.0.5
 
-# dependency_overrides:
-#   dio_cache_interceptor:
-#     path: ../dio_cache_interceptor
+dependency_overrides:
+  dio_cache_interceptor:
+    path: ../dio_cache_interceptor
 
 dev_dependencies:
   # https://pub.dev/packages/build_runner

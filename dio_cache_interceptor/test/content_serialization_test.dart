@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:diox/diox.dart';
 import 'package:dio_cache_interceptor/src/util/content_serialization.dart';
 import 'package:test/test.dart';
 

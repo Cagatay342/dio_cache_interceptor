@@ -2,7 +2,7 @@ import 'dart:io';
 import 'dart:ui';
 import 'dart:typed_data';
 
-import 'package:dio/dio.dart';
+import 'package:diox/diox.dart';
 import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart' as pp;

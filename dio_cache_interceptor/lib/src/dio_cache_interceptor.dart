@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:diox/diox.dart';
 import 'package:dio_cache_interceptor/src/model/cache_strategy.dart';
 
 import './model/cache_response.dart';

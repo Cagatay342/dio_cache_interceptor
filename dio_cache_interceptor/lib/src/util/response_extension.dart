@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:diox/diox.dart';
 import 'package:dio_cache_interceptor/src/util/contants.dart';
 
 extension ResponseExtension on Response {

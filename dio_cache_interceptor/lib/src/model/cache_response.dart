@@ -1,7 +1,7 @@
 import 'dart:convert' show jsonDecode, jsonEncode, utf8;
 import 'dart:math';
 
-import 'package:dio/dio.dart';
+import 'package:diox/diox.dart';
 
 import 'package:dio_cache_interceptor/src/model/cache_cipher.dart';
 import 'package:dio_cache_interceptor/src/model/cache_control.dart';

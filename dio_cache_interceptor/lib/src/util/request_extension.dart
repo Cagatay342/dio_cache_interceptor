@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:diox/diox.dart';
 
 extension RequestExtension on RequestOptions {
   // Request headers are not of type Headers...

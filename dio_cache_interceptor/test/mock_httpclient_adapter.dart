@@ -3,9 +3,10 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:dio/dio.dart';
+import 'package:diox/diox.dart';
+import 'package:diox/io.dart';
 
-class MockHttpClientAdapter extends HttpClientAdapter {
+class MockHttpClientAdapter extends IOHttpClientAdapter {
   static const String mockHost = 'mockserver';
   static const String mockBase = 'http://$mockHost';
 
@@ -71,7 +72,7 @@ class MockHttpClientAdapter extends HttpClientAdapter {
         if (options.extra.containsKey('x-err')) {
           throw DioError(
             requestOptions: options,
-            type: DioErrorType.connectTimeout,
+            type: DioErrorType.connectionTimeout,
           );
         }
 
